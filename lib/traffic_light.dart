@@ -12,7 +12,7 @@ class _TrafficLightState extends State<TrafficLight> {
 
   void _changeLight() {
     setState(() {
-      _lightState = (_lightState + 1) % 3; // วนรอบ 0 -> 1 -> 2 -> 0
+      _lightState = (_lightState + 1) % 3; // วนรอบ 0 -> 1 -> 2 -> 0 >>
     });
   }
 
